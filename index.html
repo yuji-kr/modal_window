@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script src="https://code.jquery.com/jquery-git.js"></script>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>JS Bin</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="modal_window.js"></script>
+    <script src="main.js"></script>
+    <script src="http://www.google.com/jsapi"></script>
 </head>
 <body>
-  <p><a href="#modal01" class="modalOpen">Open</a></p>
-  <div class="modal" id="modal01">
-    <div class="overLay modalClose"></div>
-    <div class="inner">
-      Modal window
-    <a href="" class="modalClose">Close</a>
+    <img src="220px-PaulGauguinblackwhite.jpg" alt="">
+    <button class="open">Eugène Henri Paul Gauguin</button>
+    <div class="container">
+      <div class="overlay"></div>
+      <div class="body">
+        <div class="main">
+          <div class="content">
+            <p class="text"><span>D'où venons-nous ? Que sommes-nous ? Où allons-nous ?</span></p>
+              <button class="close">CLOSE</button>
+            </div>
+         </div>
+      </div>
     </div>
-  </div>
-  <p><a href="#modal02" class="modalOpen"></a></p>
-  <div class="modal" id="modal02">
-    <div class="overLay modalClose"></div>
-    <div class="inner">
-      Modal Window
-    <a href="" class="modalClose">Close</a>
-    </div>
-  </div>
 </body>
 </html>
